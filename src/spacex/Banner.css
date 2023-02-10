@@ -1,0 +1,22 @@
+.banner {
+  background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.banner__title {
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px #333;
+  margin-bottom: 20px;
+}
+
+.banner__description {
+  font-size: 18px;
+  text-shadow: 1px 1px #333;
+}
