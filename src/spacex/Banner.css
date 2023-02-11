@@ -55,31 +55,19 @@
     top: 0px;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 690px) {
   #div {
     animation-name: mobile-example;
   }
 }
-
 @keyframes mobile-example {
   0% {
-    left: 0px;
-    top: 0px;
-  }
-  25% {
-    left: -170px;
     top: 0px;
   }
   50% {
-    left: -170px;
-    top: 230px;
-  }
-  75% {
-    left: 170px;
     top: 230px;
   }
   100% {
-    left: 170px;
     top: 0px;
   }
 }
