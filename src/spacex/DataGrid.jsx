@@ -23,7 +23,7 @@ const DataGrid = ({ items }) => {
       )}
       <div className="grid-container">
         {items.length > 0 ? (
-          items.map((item,index) => {
+          items.map((item, index) => {
             return (
               <div
                 className="grid-item"

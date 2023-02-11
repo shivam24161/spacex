@@ -45,7 +45,11 @@ const App = () => {
   return (
     <div className="app">
       <Banner />
-      <SearchForm onSearch={handleSearch} setFilteredRockets={setFilteredRockets} rockets={rockets}/>
+      <SearchForm
+        onSearch={handleSearch}
+        setFilteredRockets={setFilteredRockets}
+        rockets={rockets}
+      />
       <div>
         {loading ? (
           <div className="loader-container">
@@ -53,7 +57,7 @@ const App = () => {
           </div>
         ) : (
           <>
-            <DataGrid items={filteredRockets}/>
+            <DataGrid items={filteredRockets} />
             <div className="pagination">
               <button
                 className="pagination-btn"
